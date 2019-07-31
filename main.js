@@ -1,23 +1,38 @@
-// NAVBAR SCROLL
-
-let prevScrollpos = window.pageYOffset;
-
-window.onscroll = function() {
-  let currentScrollPos = window.pageYOffset;
-
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("header").style.top = "0";
-  } else {
-    document.getElementById("header").style.top = "-85px";
+document.addEventListener('DOMContentLoaded', (event) => {
+  // NAVBAR SCROLL
+  
+  let prevScrollpos = window.pageYOffset;
+  
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+  
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("header").style.top = "0";
+    } else {
+      document.getElementById("header").style.top = "-85px";
+    }
+  
+    prevScrollpos = currentScrollPos;
   }
+  
+  
+  // SMOOTH SCROLLING
+  
+  new SmoothScroll('a[href*="#"]', {
+    speed: 300,
+    speedAsDuration: true
+  });
+  
+  // COMING SOON ALERT
 
-  prevScrollpos = currentScrollPos;
-}
+  let alertButton = document.querySelectorAll(".coming-soon")
 
+  for (var i = 0; i < alertButton.length; i++) {
+    alertButton[i].addEventListener('click', e => {
+      e.preventDefault;
+      
+      alert('Website coming soon!');
+    });
+  };
+})
 
-// SMOOTH SCROLLING
-
-let scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 300,
-  speedAsDuration: true
-});
