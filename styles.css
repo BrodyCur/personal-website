@@ -125,7 +125,7 @@ nav li {
   border-top: 1px solid rgb(207, 175, 244);
   margin: 0 5em 5em;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .project-container img {
@@ -173,7 +173,7 @@ nav li {
   border-top: 1px solid rgb(207, 175, 244);
   margin: 0 5em 5em;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .project-container_two img {
