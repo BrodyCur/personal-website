@@ -79,10 +79,11 @@ nav li {
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-top: 1em;
 }
 
 .hero-image {
-  margin: 10em auto;
+  margin: 10em auto 0;
   padding: 2em 1em;
   border-radius: 25%;
   grid-column: 2 / span 1;
@@ -214,20 +215,14 @@ nav li {
 
 /* CONTACT */
 
-.contact-container {
-  display: flex;
-  align-items: center;
-}
-
 .contact-container h1 {
-  padding: 2em 0 2em 2.5em;
+  padding-left: 2.5em;
 }
 
 .social-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 17em;
+  position: relative;
+  text-align: center;
+  bottom: 6.5em;
 }
 
 i {
