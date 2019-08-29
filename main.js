@@ -34,5 +34,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
       alert('Website coming soon!');
     });
   };
-})
-
+});
