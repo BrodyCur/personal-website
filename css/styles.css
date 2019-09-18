@@ -248,3 +248,100 @@ footer {
 footer p {
   margin-left: 1.5em;
 }
+
+
+@media screen and (max-width: 745px) {
+
+  .about-container {
+    padding: 1em;
+    display: block;
+  }
+
+  .hero-image {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .about-container h1 {
+    padding: 2em 0 0 .25em;
+  }
+
+  .about-container h2 {
+    margin: 0 auto;
+    padding: 1.25em;
+  }
+
+  .about-container p {
+    margin: 0 auto;
+  }
+
+  .projects-container {
+    padding: 1.5em;
+  }
+
+  .projects-container h1 {
+    padding: 2em 0 0 .75em;
+  }
+
+  .project-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-container_two {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .project-container img {
+    padding-bottom: 1em;
+  }
+
+  .project-container h1 {
+    text-align: right;
+    padding: 2em 1.5em 0 0;
+  }
+
+  .project-container_two img {
+    padding-bottom: 1em;
+  }
+
+  .project-container_two h1 {
+    text-align: left;
+    padding: 2em 0 0 1.5em;
+  }
+
+  .button-container {
+    position: relative;
+    margin: 0;
+    margin-bottom: .5em;
+    padding-right: 1.5em;
+    text-align: right;
+  }
+
+  .project-container_two .button-container {
+    position: relative;
+    margin: 0;
+    margin-bottom: .5em;
+    padding-left: 1.5em;
+    text-align: left;
+  }
+
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1em 0;
+  }
+
+  .contact-container h1 {
+    padding-left: 1.5em;
+    margin: auto 0;
+  }
+
+  .social-container {
+    margin: 0;
+    position: static;
+    text-align: left;
+  }
+}
