@@ -192,7 +192,7 @@ nav li {
   text-align: right;
 }
 
-.project-container_two p {
+.project-container_two .project-info {
   font-size: 1.25em;
   padding: 0 1.5em;
   margin: auto;
@@ -316,7 +316,7 @@ footer p {
     font-size: 1em;
   }
 
-  .project-container_two p {
+  .project-container_two .project-info p {
     font-size: 1em;
   }
 
