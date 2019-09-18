@@ -193,14 +193,16 @@ nav li {
 }
 
 .project-container_two .project-info {
-  font-size: 1.25em;
   padding: 0 1.5em;
   margin: auto;
   grid-column: 2 / span 1;
 }
 
+.project-container_two p {
+  font-size: 1.25em;
+}
+
 .project-container_two ul {
-  font-size: 1em;
   padding: 1em 2.5em;
   grid-column: 1 / span 2;
 }
