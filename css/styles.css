@@ -250,6 +250,9 @@ footer p {
 }
 
 
+/* MOBILE */
+
+
 @media screen and (min-width: 320px) and (max-width: 745px) {
 
   .about-container {
