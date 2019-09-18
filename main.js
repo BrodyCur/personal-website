@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       document.getElementById("header").style.top = "0";
     } else {
       document.getElementById("header").style.top = "-100px";
+      hamburger.classList.toggle("change");
       dropdown.classList.toggle("dropdown-display");
     }
   
