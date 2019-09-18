@@ -192,7 +192,7 @@ nav li {
   text-align: right;
 }
 
-.project-container_two .project-info {
+.project-container_two p {
   font-size: 1.25em;
   padding: 0 1.5em;
   margin: auto;
@@ -250,21 +250,21 @@ footer p {
 }
 
 
-@media screen and (max-width: 745px) {
+@media screen and (min-width: 320px) and (max-width: 745px) {
 
   .about-container {
-    padding: 1em;
     display: block;
   }
 
   .hero-image {
+    width: 80%;
     display: block;
     margin: 0 auto;
     padding: 0;
   }
 
   .about-container h1 {
-    padding: 2em 0 0 .25em;
+    padding: 2em 0 0 .5em;
   }
 
   .about-container h2 {
@@ -276,47 +276,54 @@ footer p {
     margin: 0 auto;
   }
 
-  .projects-container {
-    padding: 1.5em;
-  }
-
   .projects-container h1 {
-    padding: 2em 0 0 .75em;
+    padding: 2em 0 0 .5em;
   }
 
   .project-container {
     display: block;
-    margin: 0 auto;
+    margin: 1.5em;
   }
 
   .project-container_two {
     display: block;
-    margin: 0 auto;
+    margin: 1.5em;
+  }
+
+  .project-container h1 {
+    font-size: 1.5em;
+    text-align: right;
+    padding: 1em 1em 0 0;
+  }
+
+  .project-container_two h1 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 1em 0 0 1em;
   }
   
   .project-container img {
     padding-bottom: 1em;
-  }
-
-  .project-container h1 {
-    text-align: right;
-    padding: 2em 1.5em 0 0;
+    margin: 0 auto;
   }
 
   .project-container_two img {
     padding-bottom: 1em;
+    margin: 0 auto;
   }
 
-  .project-container_two h1 {
-    text-align: left;
-    padding: 2em 0 0 1.5em;
+  .project-container p {
+    font-size: 1em;
+  }
+
+  .project-container_two p {
+    font-size: 1em;
   }
 
   .button-container {
     position: relative;
     margin: 0;
-    margin-bottom: .5em;
-    padding-right: 1.5em;
+    margin-bottom: .5em;  
     text-align: right;
   }
 
@@ -324,7 +331,6 @@ footer p {
     position: relative;
     margin: 0;
     margin-bottom: .5em;
-    padding-left: 1.5em;
     text-align: left;
   }
 
@@ -335,7 +341,7 @@ footer p {
   }
 
   .contact-container h1 {
-    padding-left: 1.5em;
+    padding-left: 1em;
     margin: auto 0;
   }
 
@@ -344,4 +350,8 @@ footer p {
     position: static;
     text-align: left;
   }
-}
+
+  footer {
+    font-size: .75em;
+  }
+};
